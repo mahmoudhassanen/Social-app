@@ -1,0 +1,134 @@
+.Sidebar
+{
+    /* flex: 3; */
+    height: calc(100vh -  50px);
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px;
+   
+  
+    
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+/* display: none; */
+}
+::-webkit-scrollbar-track
+{
+    background-color: #f1f1f1;
+    
+}
+::-webkit-scrollbar-thumb
+{
+    border: solid 4px transparent;
+    border-radius: 14px;
+    background-color: rgb(179 ,179, 179);
+}
+.icon1
+{
+    color: #06b6d4 !important;
+}
+.icon2
+{
+    color: #c026d3;  /* fallback for old browsers */
+
+
+}
+.icon3
+{
+    color: #e11d48;
+}
+.icon4
+{
+    color: #0284c7;
+}
+.icon5
+{
+   color:  #ec4899;
+}
+.icon6
+{
+    color: #a1a1aa;
+}
+.icon7
+{
+    color: #ea580c;
+}
+.icon8
+{
+    color: #f87171
+    ;
+}
+.icon9
+{
+    color: #2563eb;
+}
+.SideWrapper
+
+{
+    padding: 25px;
+   
+}
+.Sidebar:hover  ::-webkit-scrollbar 
+{
+    display: block;
+}
+.Slidebarlist
+{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    cursor: pointer;
+    
+}
+.SlidebarItems
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.slidebaricon
+{
+    margin-right: 15px;
+}
+.Sidebarbtn 
+{
+    width: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px !important;
+    font-weight: 500;
+    background-color:#e2e8f0 !important;
+}
+.slidebarhr
+{
+    margin: 20px 0px;
+    
+}
+.sidebarfriendlist
+{
+    padding: 0px;
+    margin: 0;
+    list-style: none;
+}
+.slidebarfriend
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.slidebarimg
+{
+    width: 32px;
+    height: 32px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right:  10px;
+}
+@media screen and (max-width : 992px) {
+
+
+   
+}
